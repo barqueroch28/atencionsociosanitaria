@@ -1,0 +1,88 @@
+/* TIPOGRAFÍAS */
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('/public/fonts/opensans/OpenSans-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('/public/fonts/opensans/OpenSans-Bold.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'opensans-semi';
+    src: url('/public/fonts/opensans/OpenSans-Semibold.ttf');
+    font-display: swap;
+}
+a{text-decoration: none;}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    font-family: 'opensans-regular';
+}
+b{font-family: 'opensans-bold';}
+.light-purple { background-color: #B56AB2;}
+.purple { color: #82027C;}
+.yellow { color: #FFCC00;}
+.gray { color:#666666;}
+.red { color: #D92323;}
+.black { color: rgb(80, 80, 80);}
+.gray-dark {color: #2D2D2D;}
+.bg-purple, #bg-purple { background-color: #82027C;}
+.bg-gray { background-color: #C9C9C9;}
+.bg-gray-dark { background-color: #828282;}
+.light-gray { background-color: #ECECEC;}
+.dark-gray { background-color: #2D2D2D;}
+.bg-yellow { background-color: rgba(255, 204, 0, 0.7);}
+.bg-red, #bg-red { background-color: #D92323;}
+.bg-darkblack { background-color: #222222;}
+#logo { width: 15rem;}
+.nav a{color: #666666;}
+.nav-link.active {    
+    color:  #82027C !important;
+    font-family: 'opensans-bold';
+}
+.nav-link:hover { 
+    color: #82027C !important;
+    font-family: 'opensans-bold';
+}
+.dropdown-item.active {background-color: #82027C;}
+.extrabig-title { font-size: 3.5em;}
+.big-title { font-size: 3em;}
+.med-title { font-size: 2.5em;}
+.medio-title { font-size: 2.3em;}
+.medium-title { font-size: 2em;}
+.inter-title { font-size: 1.8em;}
+.litle-title { font-size: 1.5em;}
+.small-title { font-size: 1.3em;}
+.tiny-title { font-size: 1.2em;}
+.text { font-size: 1.1em;}
+.tiny-text { font-size: 1em;}
+.semi { font-family: 'opensans-semi';}
+#gob { width: 8rem;}
+#logo { width: 7rem;}
+#bg-home {
+    background-image: url('/public/img/home.webp');
+    background-size: cover;
+    background-position: 0;
+    padding: 90px 0;
+}
+#bg-contact {
+    background-image: url('/public/img/phone.webp');
+    background-size: cover;
+    background-position: 0;
+    padding: 70px 0;
+}
+#circle { border-radius: 50%; background-color: #FFCC00;}
+#bg-purple:hover, #bg-red:hover { background-color: #666666;}
+#photos { width: 5rem;}
+#gradient { background: linear-gradient(rgb(255, 255, 255), #82027C);}
+#accept:hover { background-color: #828282;}
+@media only screen and (max-width:600px){
+   #hide { display: none;}
+   p { font-size: 1.1em;}
+}
